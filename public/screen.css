@@ -1,8 +1,26 @@
-html {
-  text-size-adjust: 100%;
-}
-
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+}
+img {
+  height: 350px;
+  border: 1px solid gray;
+}
+li {
+  margin: 3em;
+  list-style: none;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cat-details {
+display:flex ;
+justify-content: space-between;
+  }
+.cat-number {
+  color: gray;
+}
+.cat-intro{
+  color: #c0bdbd;
 }
